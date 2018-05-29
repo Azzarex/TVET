@@ -2,15 +2,54 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Grid : MonoBehaviour {
+/*
+ * Useful Hotkeys
+ * - CTRl + K + D : Cleans code
+ * - CTRL + M + O : Folds code
+ * - CTRL + M + P : UnFolds code
+ */
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+namespace Minesweeper
+{
+    public class Grid : MonoBehaviour
+    {
+        public GameObject tilePrefab;
+        public int width = 10, height = 10;
+        public float spacing = .155f;
+
+        private Tile[,] tiles;
+
+        Tile SpawnTile(Vector3 pos)
+        {
+
+            GameObject clone = Instantiate(tilePrefab);
+
+            clone.transform.position = pos;
+            Tile currentTile = clone.GetComponent<Tile>();
+
+            return currentTile;
+
+        }
+        void GenerateTiles()
+        {
+
+            tiles = new Tile[width, height];
+
+            for (int x = 0; x <width; x++)
+            {
+                Vector2 halfSize = new Vector2(width * 0.5f,
+                            height * 0.5f);
+                Vector2 pos = new Vector2(x - halfSize.x,
+                    y - halfSize.y);
+
+                pos *= spacing;
+
+
+            }
+
+
+
+
+
+        }
 }
