@@ -18,6 +18,7 @@ namespace Minesweeper
         public float spacing = .155f;
 
         private Tile[,] tiles;
+        private float y;
 
         Tile SpawnTile(Vector3 pos)
         {
@@ -35,14 +36,16 @@ namespace Minesweeper
 
             tiles = new Tile[width, height];
 
-            for (int x = 0; x <width; x++)
+            for (int x = 0; x < width; x++)
             {
                 Vector2 halfSize = new Vector2(width * 0.5f,
                             height * 0.5f);
                 Vector2 pos = new Vector2(x - halfSize.x,
                     y - halfSize.y);
 
-                pos *= spacing;
+                pos *= spacing; // says how far apart the grid is
+                // imgay
+               
 
 
             }
@@ -52,4 +55,5 @@ namespace Minesweeper
 
 
         }
+    }
 }

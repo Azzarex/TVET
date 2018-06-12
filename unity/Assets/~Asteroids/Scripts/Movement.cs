@@ -34,7 +34,7 @@ namespace Asteroids
             if (Input.GetKey(KeyCode.W))
             {
                 // This says 'move yer afff forward boi'
-                rigid.AddForce(transform.up * speed);
+                rigid.AddForce(transform.up * speed); // I'm Hugh Janus. No I'm actually Hugh Janus.
             }
         }
     }
