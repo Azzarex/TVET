@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1231336971321528}
+  m_IsPrefabParent: 1
+--- !u!1 &1231336971321528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4481201000868582}
+  - component: {fileID: 33690586698788052}
+  - component: {fileID: 136179557992420890}
+  - component: {fileID: 23859325365013952}
+  - component: {fileID: 114256226128151698}
+  - component: {fileID: 114292765303557680}
+  m_Layer: 8
+  m_Name: Camera Battery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4481201000868582
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1231336971321528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3357, y: -0.602, z: 1.7082}
+  m_LocalScale: {x: 0.0834316, y: 0.0834316, z: 0.0834316}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23859325365013952
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1231336971321528}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d2c65ad58793ca346aff111e9bc41cdf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33690586698788052
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1231336971321528}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114256226128151698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1231336971321528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb0b86f4e710484c8b7853b0011574f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sway: 1
+  Sway_Amount: 0.02
+  Sway_MaxAmount: 0.06
+  Sway_SmoothAmount: 6
+  TiltX: 8
+  TiltY: 4
+  ItemAudioSource: {fileID: 0}
+  StartUsingSound: {fileID: 0}
+  StopUsingSound: {fileID: 0}
+  StartExaminingSound: {fileID: 0}
+  StopExaminingSound: {fileID: 0}
+  PickupedSound: {fileID: 0}
+  ConsumedSound: {fileID: 0}
+  HeightIcon: 100
+  WidthIcon: 100
+  UsingUI: {fileID: 0}
+  ExaminingUI: {fileID: 0}
+  PickupedUI: {fileID: 0}
+  ConsumedUI: {fileID: 0}
+  ItemName: 
+  Description: 
+  Type: 3
+  ShowItemSettings: 0
+  Icon: {fileID: 21300000, guid: f6ae517347337f141be45a5105d227de, type: 3}
+  InputToInteract: Interact
+  Examinable: 0
+  InputToExamine: Examine
+  canRun: 0
+  animationC: {fileID: 0}
+  canTilt: 0
+  initialPosition: {x: 0, y: 0, z: 0}
+  Owner: {fileID: 0}
+--- !u!114 &114292765303557680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1231336971321528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac90fe8ec70fe344b8e068ccb65a937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  compo: {fileID: 0}
+  NeedUseItemToRecharge: 0
+  BatteryType: 1
+--- !u!136 &136179557992420890
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1231336971321528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}

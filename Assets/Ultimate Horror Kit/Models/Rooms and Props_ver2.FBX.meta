@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: ee6a2dbbeac222149a7ad5f15085e902
+timeCreated: 1516105692
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Bed_01
+    100002: Bed_02
+    100004: Bed_03
+    100006: Bed_04
+    100008: Door_01
+    100010: Door_02
+    100012: Door_03
+    100014: light_01
+    100016: light_02
+    100018: light_03
+    100020: light_04
+    100022: light_05
+    100024: light_06
+    100026: prop_1
+    100028: prop_2
+    100030: prop_3
+    100032: Roof_light_01
+    100034: Roof_light_02
+    100036: Roof_light_03
+    100038: Roof_light_04
+    100040: Roof_light_05
+    100042: Rooms
+    100044: //RootNode
+    100046: Table_01
+    100048: Table_02
+    100050: Table_03
+    100052: Table_04
+    100054: Table_05
+    100056: Table_06
+    100058: Table_07
+    100060: Wires
+    400000: Bed_01
+    400002: Bed_02
+    400004: Bed_03
+    400006: Bed_04
+    400008: Door_01
+    400010: Door_02
+    400012: Door_03
+    400014: light_01
+    400016: light_02
+    400018: light_03
+    400020: light_04
+    400022: light_05
+    400024: light_06
+    400026: prop_1
+    400028: prop_2
+    400030: prop_3
+    400032: Roof_light_01
+    400034: Roof_light_02
+    400036: Roof_light_03
+    400038: Roof_light_04
+    400040: Roof_light_05
+    400042: Rooms
+    400044: //RootNode
+    400046: Table_01
+    400048: Table_02
+    400050: Table_03
+    400052: Table_04
+    400054: Table_05
+    400056: Table_06
+    400058: Table_07
+    400060: Wires
+    2300000: Bed_01
+    2300002: Bed_02
+    2300004: Bed_03
+    2300006: Bed_04
+    2300008: Door_01
+    2300010: Door_02
+    2300012: Door_03
+    2300014: light_01
+    2300016: light_02
+    2300018: light_03
+    2300020: light_04
+    2300022: light_05
+    2300024: light_06
+    2300026: prop_1
+    2300028: prop_2
+    2300030: prop_3
+    2300032: Roof_light_01
+    2300034: Roof_light_02
+    2300036: Roof_light_03
+    2300038: Roof_light_04
+    2300040: Roof_light_05
+    2300042: Rooms
+    2300044: Table_01
+    2300046: Table_02
+    2300048: Table_03
+    2300050: Table_04
+    2300052: Table_05
+    2300054: Table_06
+    2300056: Table_07
+    2300058: Wires
+    3300000: Bed_01
+    3300002: Bed_02
+    3300004: Bed_03
+    3300006: Bed_04
+    3300008: Door_01
+    3300010: Door_02
+    3300012: Door_03
+    3300014: light_01
+    3300016: light_02
+    3300018: light_03
+    3300020: light_04
+    3300022: light_05
+    3300024: light_06
+    3300026: prop_1
+    3300028: prop_2
+    3300030: prop_3
+    3300032: Roof_light_01
+    3300034: Roof_light_02
+    3300036: Roof_light_03
+    3300038: Roof_light_04
+    3300040: Roof_light_05
+    3300042: Rooms
+    3300044: Table_01
+    3300046: Table_02
+    3300048: Table_03
+    3300050: Table_04
+    3300052: Table_05
+    3300054: Table_06
+    3300056: Table_07
+    3300058: Wires
+    4300000: Rooms
+    4300002: light_01
+    4300004: Table_07
+    4300006: Door_01
+    4300008: Door_02
+    4300010: Door_03
+    4300012: Table_01
+    4300014: Table_02
+    4300016: Table_03
+    4300018: Table_04
+    4300020: Table_05
+    4300022: Table_06
+    4300024: Bed_01
+    4300026: Bed_02
+    4300028: Bed_03
+    4300030: Bed_04
+    4300032: Wires
+    4300034: light_02
+    4300036: light_03
+    4300038: light_04
+    4300040: light_05
+    4300042: light_06
+    4300044: Roof_light_01
+    4300046: Roof_light_02
+    4300048: Roof_light_03
+    4300050: Roof_light_04
+    4300052: Roof_light_05
+    4300054: prop_1
+    4300056: prop_2
+    4300058: prop_3
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

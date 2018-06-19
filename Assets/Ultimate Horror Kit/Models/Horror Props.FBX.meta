@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: 33c32fb114b5acb458f91f9e27e720c0
+timeCreated: 1517337052
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Battery
+    100002: Cam_01
+    100004: Camera
+    100006: drawer_01
+    100008: drawer_02
+    100010: drawer_03
+    100012: drawer_04
+    100014: drawer_05
+    100016: drawer_06
+    100018: drawer_07
+    100020: drawer_08
+    100022: Key
+    100024: Lamp
+    100026: Locker
+    100028: Locker_door
+    100030: //RootNode
+    100032: Radio
+    100034: Table
+    100036: Torch
+    400000: Battery
+    400002: Cam_01
+    400004: Camera
+    400006: drawer_01
+    400008: drawer_02
+    400010: drawer_03
+    400012: drawer_04
+    400014: drawer_05
+    400016: drawer_06
+    400018: drawer_07
+    400020: drawer_08
+    400022: Key
+    400024: Lamp
+    400026: Locker
+    400028: Locker_door
+    400030: //RootNode
+    400032: Radio
+    400034: Table
+    400036: Torch
+    2300000: Battery
+    2300002: Cam_01
+    2300004: Camera
+    2300006: drawer_01
+    2300008: drawer_02
+    2300010: drawer_03
+    2300012: drawer_04
+    2300014: drawer_05
+    2300016: drawer_06
+    2300018: drawer_07
+    2300020: drawer_08
+    2300022: Key
+    2300024: Lamp
+    2300026: Locker
+    2300028: Locker_door
+    2300030: Radio
+    2300032: Table
+    2300034: Torch
+    3300000: Battery
+    3300002: Cam_01
+    3300004: Camera
+    3300006: drawer_01
+    3300008: drawer_02
+    3300010: drawer_03
+    3300012: drawer_04
+    3300014: drawer_05
+    3300016: drawer_06
+    3300018: drawer_07
+    3300020: drawer_08
+    3300022: Key
+    3300024: Lamp
+    3300026: Locker
+    3300028: Locker_door
+    3300030: Radio
+    3300032: Table
+    3300034: Torch
+    4300000: Key
+    4300002: Locker
+    4300004: Locker_door
+    4300006: Table
+    4300008: drawer_08
+    4300010: drawer_01
+    4300012: drawer_02
+    4300014: drawer_03
+    4300016: drawer_04
+    4300018: drawer_05
+    4300020: drawer_06
+    4300022: drawer_07
+    4300024: Radio
+    4300026: Camera
+    4300028: Cam_01
+    4300030: Lamp
+    4300032: Torch
+    4300034: Battery
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

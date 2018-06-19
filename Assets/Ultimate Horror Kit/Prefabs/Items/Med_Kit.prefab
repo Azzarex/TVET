@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1816975302795594}
+  m_IsPrefabParent: 1
+--- !u!1 &1816975302795594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4789701018954728}
+  - component: {fileID: 33676736340891424}
+  - component: {fileID: 23213020581349430}
+  - component: {fileID: 114998742457914276}
+  - component: {fileID: 114028811906563058}
+  - component: {fileID: 65584072920412074}
+  m_Layer: 8
+  m_Name: Med_Kit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4789701018954728
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1816975302795594}
+  m_LocalRotation: {x: -0.78117144, y: 0.13285647, z: 0.22061203, w: 0.5687273}
+  m_LocalPosition: {x: 0.89917755, y: 0.2059265, z: -0.54956627}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -108.708, y: 37.117996, z: -7.770996}
+--- !u!23 &23213020581349430
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1816975302795594}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0d2df31595d38434d9181bd582b2e514, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33676736340891424
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1816975302795594}
+  m_Mesh: {fileID: 4300008, guid: d62960141eddedf488d65abfe60112c7, type: 3}
+--- !u!65 &65584072920412074
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1816975302795594}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4885651, y: 0.12505315, z: 0.37426418}
+  m_Center: {x: -0.0000009536743, y: 0, z: 0.00000047683716}
+--- !u!114 &114028811906563058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1816975302795594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb0b86f4e710484c8b7853b0011574f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  switchedOut: 0
+  Sway: 1
+  Sway_Amount: 0.02
+  Sway_MaxAmount: 0.06
+  Sway_SmoothAmount: 6
+  TiltX: 8
+  TiltY: 4
+  Idle: {fileID: 0}
+  SightIdle: {fileID: 0}
+  Walk: {fileID: 0}
+  SightWalk: {fileID: 0}
+  Run: {fileID: 0}
+  SightRun: {fileID: 0}
+  Shoot: {fileID: 0}
+  SightShoot: {fileID: 0}
+  SwitchInClip: {fileID: 0}
+  SwitchOutClip: {fileID: 0}
+  ReloadClip: {fileID: 0}
+  JumpClip: {fileID: 0}
+  LandClip: {fileID: 0}
+  FPSArms: {fileID: 0}
+  ItemBasePos: {x: 0.11, y: -0.1, z: 0.25}
+  ItemBaseRot: {x: 0, y: 0, z: 0}
+  runPosition: {x: 0, y: 0, z: 0}
+  runRotation: {x: 0, y: 0, z: 0}
+  runPosePosSpeed: 10
+  runPoseRotSpeed: 300
+  ItemAudioSource: {fileID: 0}
+  StartUsingSound: {fileID: 0}
+  StopUsingSound: {fileID: 0}
+  StartExaminingSound: {fileID: 0}
+  StopExaminingSound: {fileID: 0}
+  PickupedSound: {fileID: 0}
+  ConsumedSound: {fileID: 0}
+  HeightIcon: 100
+  WidthIcon: 100
+  UsingUI: {fileID: 0}
+  ExaminingUI: {fileID: 0}
+  PickupedUI: {fileID: 0}
+  ConsumedUI: {fileID: 0}
+  ItemName: MedKit
+  Description: 
+  Type: 3
+  ShowItemSettings: 0
+  Icon: {fileID: 0}
+  InputToInteract: Interact
+  Examinable: 0
+  InputToExamine: Examine
+  canRun: 0
+  animationC: {fileID: 0}
+  canTilt: 0
+  initialPosition: {x: 0, y: 0, z: 0}
+  Owner: {fileID: 0}
+--- !u!114 &114998742457914276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1816975302795594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 982db5a43cf4a2b46a27f60b539d566e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthAmount: 50
